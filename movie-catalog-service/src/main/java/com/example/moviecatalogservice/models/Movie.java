@@ -4,9 +4,6 @@ public class Movie {
     private String name;
     private int movieId;
 
-    public Movie() {
-    }
-
     public Movie(int movieId, String name) {
         this.name = name;
         this.movieId = movieId;
